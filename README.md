@@ -22,7 +22,9 @@ The official PyTorch implementation for the following paper:
 [2024/07/19] This repository was released.  
 
 # Dataset
-Fill in a [google form](https://docs.google.com/forms/d/e/1FAIpQLSfRPJaCmU6oQ4X_uB6H-EM5MSeczKczZxbQ5H9FMRS4KNY59w/viewform) for access to the dataset.
+Fill in a [google form](https://docs.google.com/forms/d/e/1FAIpQLSfRPJaCmU6oQ4X_uB6H-EM5MSeczKczZxbQ5H9FMRS4KNY59w/viewform) for access to the dataset.  
+- We manually confirm the submitted forms and therefore it may take some time. Please be patient while the dataset link arrives. 
+- If you do not receive the link after 3 days, we may have missed your form or the form was not filled in correctly. We are sorry, but please submit the proper form again. (Please do not start a thread on Issue)
 
 ## Dataset directory
 Place the dataset as follows:
