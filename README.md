@@ -1,4 +1,4 @@
-# PetFace (ECCV2024)
+# PetFace (ECCV2024 Oral)
 <a href='https://arxiv.org/abs/2407.13555'><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a> &nbsp; 
 <a href='https://dahlian00.github.io/PetFacePage/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp; 
 
@@ -18,6 +18,7 @@ The official PyTorch implementation for the following paper:
 ### Our PetFace dataset, code in this repository, and pretrained models are  **for non-commercial research purpose only**.
 
 # Changelog
+[2024/08/14] PetFace was selected as an ORAL presentation at ECCV2024🎉  
 [2024/07/27] Pretrained models, training code, and evaluation were released. Also, "split" folder is updated.  
 [2024/07/19] This repository was released.  
 
