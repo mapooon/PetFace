@@ -93,7 +93,7 @@ CUDA_VISIBLE_DEVICES=0 python3 src/train_arcface.py src/configs/cat.py  --output
 
 Also, you can train an arcface model on all the species (families):
 ```
-CUDA_VISIBLE_DEVICES=0 python3 src/train_unfied.py src/configs/unified.py  --output outputs/unified
+CUDA_VISIBLE_DEVICES=0 python3 src/train_unified.py src/configs/unified.py  --output outputs/unified
 ```
 
 # Acknowledgement
