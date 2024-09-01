@@ -56,13 +56,7 @@ verification.csv: pairs of file names to verify and labels indicating whether th
 reidentification.csv: file names and id labels for re-identification  
 
 # Setup
-## pip (Unrecomemnded)
-Install packages:
-```
-pip install -r requirements.txt
-```
-
-## Docker (Recomemnded)
+## Docker (Recommended)
 1) Pull a docker image:
 ```
 docker pull pytorch/pytorch:1.12.0-cuda11.3-cudnn8-runtime
@@ -75,6 +69,12 @@ bash exec.sh
 4) Install packages:
 ```
 bash install.sh
+```
+
+## pip (Unrecommended)
+Install packages:
+```
+pip install -r requirements.txt
 ```
 
 # Testing
