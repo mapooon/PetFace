@@ -13,7 +13,3 @@ checkpoints/
 .vscode/
 results/
 outputs/
-
-
-exec.sh
-install.sh

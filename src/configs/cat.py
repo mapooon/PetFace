@@ -23,4 +23,3 @@ config.num_epoch = 10
 config.warmup_epoch = 0
 
 config.train_csv = 'data/PetFace/split/cat/train.csv'
-config.basedir='data/PetFace/images/cat'

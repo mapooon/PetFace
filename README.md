@@ -18,6 +18,7 @@ The official PyTorch implementation for the following paper:
 ### Our PetFace dataset, code in this repository, and pretrained models are  **for non-commercial research purpose only**.
 
 # Changelog
+[2024/09/02] Installation instruction was updated.  
 [2024/08/14] PetFace was selected as an ORAL presentation at ECCV2024🎉  
 [2024/07/27] Pretrained models, training code, and evaluation were released. Also, "split" folder is updated.  
 [2024/07/19] This repository was released.  
@@ -55,9 +56,25 @@ verification.csv: pairs of file names to verify and labels indicating whether th
 reidentification.csv: file names and id labels for re-identification  
 
 # Setup
+## pip (Unrecomemnded)
 Install packages:
 ```
 pip install -r requirements.txt
+```
+
+## Docker (Recomemnded)
+1) Pull a docker image:
+```
+docker pull pytorch/pytorch:1.12.0-cuda11.3-cudnn8-runtime
+```
+2) Replace the path in `exec.sh`.  
+3) Execute the dokcer image:
+```
+bash exec.sh
+```
+4) Install packages:
+```
+bash install.sh
 ```
 
 # Testing
@@ -93,7 +110,7 @@ CUDA_VISIBLE_DEVICES=0 python3 src/train_arcface.py src/configs/cat.py  --output
 
 Also, you can train an arcface model on all the species (families):
 ```
-CUDA_VISIBLE_DEVICES=0 python3 src/train_unfied.py src/configs/unified.py  --output outputs/unified
+CUDA_VISIBLE_DEVICES=0 python3 src/train_unified.py src/configs/unified.py  --output outputs/unified
 ```
 
 # Acknowledgement
