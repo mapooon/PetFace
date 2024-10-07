@@ -102,12 +102,13 @@ python3 src/compute_auc.py -i results/verification/arcface/cat.csv
 ```
 
 ## Face Alignment on Your Own Images
-First, download source keypoints (`src_points` folder) from gdrive.  
-Then, detect 5 keypoints of your own image by [AnyFace](https://github.com/IS2AI/AnyFace) and save them as a `.npy` file.  
-Finally, you can align the images by:
+We provide the source key points in `keypoints` folder to align images.  
+First, you need to detect 5 keypoints of your own image by [AnyFace](https://github.com/IS2AI/AnyFace) and save them as a `.npy` file.  
+Then, you can align the images by:
 ```sh
 python3 src/face_align.py --tgt /path/to/your/keypoints.npy --img /path/to/your/image.jpeg --src /path/to/src/keypoints.npy --out /path/to/output/image.jpg
 ```
+
 
 # Training
 For example, you can run the training for cat as follows:
