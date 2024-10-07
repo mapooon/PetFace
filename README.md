@@ -18,6 +18,7 @@ The official PyTorch implementation for the following paper:
 ### Our PetFace dataset, code in this repository, and pretrained models are  **for non-commercial research purpose only**.
 
 # Changelog
+[2024/10/07] The code for face alignment on your own images was released.  
 [2024/09/02] Installation instruction was updated.  
 [2024/08/14] PetFace was selected as an ORAL presentation at ECCV2024🎉  
 [2024/07/27] Pretrained models, training code, and evaluation were released. Also, "split" folder is updated.  
@@ -100,7 +101,13 @@ Then, you can compute AUC:
 python3 src/compute_auc.py -i results/verification/arcface/cat.csv
 ```
 
-
+## Face Alignment on Your Own Images
+First, download source keypoints (`src_points` folder) from gdrive.  
+Then, detect 5 keypoints of your own image by [AnyFace](https://github.com/IS2AI/AnyFace) and save them as a `.npy` file.  
+Finally, you can align the images by:
+```sh
+python3 src/face_align.py --tgt /path/to/your/keypoints.npy --img /path/to/your/image.jpeg --src /path/to/src/keypoints.npy --out /path/to/output/image.jpg
+```
 
 # Training
 For example, you can run the training for cat as follows:

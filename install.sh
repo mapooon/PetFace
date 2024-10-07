@@ -6,3 +6,4 @@ apt-get install ffmpeg libsm6 libxext6  git -y
 pip install opencv-python-headless==4.5.5.64 pandas==1.3.5
 pip install seaborn matplotlib
 pip install git+https://github.com/openai/CLIP.git
+pip install scikit-image
