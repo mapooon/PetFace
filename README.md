@@ -5,7 +5,7 @@
 The official PyTorch implementation for the following paper:
 > [**PetFace: A Large-Scale Dataset and Benchmark for Animal Identification**](https://arxiv.org/abs/2407.13555),  
 > [Risa Shionoda](https://sites.google.com/view/risashinoda/home)* and [Kaede Shiohara](https://mapooon.github.io/)* (*Equal contribution),   
-> *ECCV 2024*
+> *ECCV 2024 Oral (with three Strong Accepts!!!)*
 
 ## TL;DR: We established a large-scale animal identification dataset with more than 250k IDs across 13 families
 
