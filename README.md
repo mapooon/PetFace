@@ -127,10 +127,12 @@ We borrow some code from [insightface](https://github.com/deepinsight/insightfac
 # Citation
 If you find our work useful for your research, please consider citing our paper:
 ```bibtex
-@article{shinoda2024petface,
-  title={PetFace: A Large-Scale Dataset and Benchmark for Animal Identification},
+@inproceedings{shinoda2025petface,
+  title={PetFace: A large-scale dataset and benchmark for animal identification},
   author={Shinoda, Risa and Shiohara, Kaede},
-  journal={arXiv preprint arXiv:2407.13555},
-  year={2024}
+  booktitle={European Conference on Computer Vision},
+  pages={19--36},
+  year={2025},
+  organization={Springer}
 }
 ```
