@@ -5,7 +5,7 @@
 The official PyTorch implementation for the following paper:
 > [**PetFace: A Large-Scale Dataset and Benchmark for Animal Identification**](https://arxiv.org/abs/2407.13555),  
 > [Risa Shionoda](https://sites.google.com/view/risashinoda/home)* and [Kaede Shiohara](https://mapooon.github.io/)* (*Equal contribution),   
-> *ECCV 2024 Oral (with three Strong Accepts!!!)*
+> *ECCV 2024 Oral*
 
 ## TL;DR: We established a large-scale animal identification dataset with more than 250k IDs across 13 families
 
@@ -20,7 +20,7 @@ The official PyTorch implementation for the following paper:
 # Changelog
 [2024/10/07] The code for face alignment on your own images was released.  
 [2024/09/02] Installation instruction was updated.  
-[2024/08/14] PetFace was selected as an ORAL presentation at ECCV2024🎉  
+[2024/08/14] PetFace was selected as an ORAL presentation at ECCV2024 (with 3x Strong Accept!!!)🎉  
 [2024/07/27] Pretrained models, training code, and evaluation were released. Also, "split" folder is updated.  
 [2024/07/19] This repository was released.  
 
@@ -28,6 +28,8 @@ The official PyTorch implementation for the following paper:
 Fill in a [google form](https://docs.google.com/forms/d/e/1FAIpQLSfRPJaCmU6oQ4X_uB6H-EM5MSeczKczZxbQ5H9FMRS4KNY59w/viewform) for access to the dataset.  
 - We manually confirm the submitted forms and therefore it may take some time. Please be patient while the dataset link arrives. 
 - If you do not receive the link after 3 days, we may have missed your form or the form was not filled in correctly. We are sorry, but please submit the proper form again. (Please do not start a thread on Issue)
+- We will not reply if you enter an e-mail address that is not affiliated with your organization (such as Gmail).
+- We will not reply if the form is written in a language other than English.
 
 ## Dataset directory
 Place the dataset as follows:
@@ -136,3 +138,6 @@ If you find our work useful for your research, please consider citing our paper:
   organization={Springer}
 }
 ```
+
+# Our Related Work
+### [[GitHub]](https://github.com/dahlian00/OpenAnimalTracks) OpenAnimalTracks: A Dataset for Animal Track Recognition (ICIP2024)
