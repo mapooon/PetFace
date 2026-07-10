@@ -14,7 +14,7 @@ The official PyTorch implementation for the following paper:
 
 ![Overview](fig/teaser.png)
 
-# !!!Attention!!!
+# ⚠️Attention⚠️
 ### Our PetFace dataset, code in this repository, and pretrained models are  **for non-commercial research purpose only**.
 
 # Changelog
@@ -28,8 +28,10 @@ The official PyTorch implementation for the following paper:
 Fill in a [google form](https://docs.google.com/forms/d/e/1FAIpQLSfRPJaCmU6oQ4X_uB6H-EM5MSeczKczZxbQ5H9FMRS4KNY59w/viewform) for access to the dataset.  
 - We manually confirm the submitted forms and therefore it may take some time. Please be patient while the dataset link arrives. 
 - If you do not receive the link after a week, we may have missed your form or the form was not filled in correctly. We are sorry, but please submit the form again. (**Please do not start a thread on Issue**)
+- We will not reply if there is missing information in the submitted form.
 - We will not reply if you enter an e-mail address that is **not affiliated with your organization** (such as Gmail).
-- We will not reply if the form is written in **languages other than English**.
+- We will not reply if the form is written in **other languages than English**.
+- We will not reply if your company does not publish research papers.
 
 ## Dataset directory
 Place the dataset as follows:
